@@ -1,13 +1,12 @@
 # Robot instructions
 
-\#    Description                 Command        Arguments
------ -------------------------   -------------  ---------
-1     move forward                forward()      number of steps
-2
-3
-4
-5
-6
+## Allowed instructions
+
+\ ![allowed instructions](instructions_table.png)
+
+## Robot program
+
+\ ![robot program](program_table.png)
 
 # Our first turtle program
 

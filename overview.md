@@ -24,6 +24,12 @@ Students will learn:
 * become resiliant with solving computer programming syntax errors.
 * what a library is and how to use one.
 
+# Lesson plans
+
+* [Lesson 1 - Turtles, sequences, python & libraries](lesson-1.html)
+* [Lesson 2 - Loops, variables, operators & Sabotage!](lesson-2.html)
+* [Lesson 3 - Conditionals, fills & stamping](lesson-3.html)
+
 # Required resources
 
 * Python 2.x installed on computers. 

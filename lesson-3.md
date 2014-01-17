@@ -10,7 +10,6 @@ In the 2nd lesson, students learnt more about python, including how to implement
 
 * Students will learn some more advanced graphical techniques
 * Students will learn about conditionals
-* Students will get better at spotting syntax errors
 * Students will learn to find documentation on libraries using the internet
 
 # Resources
@@ -19,101 +18,63 @@ In the 2nd lesson, students learnt more about python, including how to implement
 
 # Lesson Summary
 
-* Loops, variables and operators
-* Work on your competition entry
-* Sabotage!
+* Introduce conditionals
+* Work on competition entries, make use of a conditional
+* Introduce new turtle techniques
 
-## Loops and variables
+## Conditionals - 15 minutes
 
-### Hangman - 10 minutes
+In our programs so far we have only covered sequences and looped sequences. When we want our program to do something different depending on its enviromnent, we need to use conditionals. 
 
-Start off by playing a version of hangman on the white board. This version teaches the importance of variables.
+Ask the students for examples of computer games they play. Then ask them what conditionals there are in the games. For example:
 
-Don't record the wrong guesses, and have the students in a line, come up one by one to the board. They whisper their guess and if it's right, add the letter. If it's wrong tell them it's wrong but don't record it.
+* In a driving game, if the speed is too high, the car might skid
+* In a platform game, once a character's life points are too low, they die
+* In a shoot-em-up, once an enemy has been hit it dies
 
-Play for a while and ask why it's harder than normal. The reason is that nobody knows all the wrong guesses because they haven't been recorded. 
+Ask the students to look at the *conditional statement* in their handout.
 
-As people, we take our short term memory for granted, but computers need to be told to remember important things, using a variable.
+***conditional_demo.py
 
-Variables have 3 important features:
-
-* They can store some data
-* They can recall that data
-* The data they store can be changed
-
-The variables we'll be using will be storing numbers.
-
-### Variables in python - 10 minutes
-
-Ask the students to start Idle and make a new file. Ask them to type the *variables* code in the handout. Ask them to save and run their file. Remember to add the `.py` to the end of their filename.
-
-We use the single `=` to assign a number to a variable. Variables can be called pretty much anything, but there can be no spaces in the name. It's a good idea to call a variable a name that makes sense for what its storing.
-
-When we use the `+` to add to the variable, we are using an `operator`. Common mathematical operators include `+, -, /, *`.
-
-### Loops in python - 10 minutes
-
-Ask the students to type in the code *looping* from their handouts. This can be added to the end of their current work.
-
-Ask them to explain how the looping is working, and how it uses the variable to count the number of times the loop as run.
-
-***loopdemo.py
-
-1. create a new variable and store 0 inside
-2. the line that creates the loop. It will only loop while loops < 20
-3. prints 'hello'
-4. adds 1 to the variable using the `+` operator.
+Ask them what colour the turtle will draw with the variable `loops` set to 5. Ask what `loops` would need to be to change the colour to red or green?
 
 ## Work on their turtle prize entry - 30 minutes
 
-Encourage the students to use variables and loops in their turtle code.
-The following picture shows you how to spot the ideas students are using.
+* Ask the students to work on their competition entry, and to make use of a conditional statement to change the colour, or another graphical parameter (such as line width).
+* Encourage students to experiment with the *fill* and *stamping* options detailed in the handout.
+* Encourage students to use the internet to search for other turtle techniques, starting with the link in the handout.
 
-\ ![looping and variables](turtlesequence.png)
+## Plenary - 15 minutes
 
-1. on the left is a simple sequence
-2. the center shows the same sequence, but looped 30 times with a rotation between each loop
-3. the right shows the looped version, but the pattern gets a bit bigger everytime using a variable that increases every loop
+Remind students that they've learnt the fundamentals of computer programming, recap on the meanings of:
 
-## Sabotage!
+* sequences
+* loops
+* data
+* conditionals
+* operators
 
-At some point interrupt the student's work on their entry and explain they're going to play a game called sabotage. This game was invented by Alan O'Donohoe ([@teknoteacher](http://twitter.com/teknoteacher)) to teach resiliance in dealing with syntax errors.
+That programs are made of sequences of instructions that can be looped.
+That different sequences can be run using conditional statements.
+That they can create and be creative with computers and computer programming.
 
-Each pair saves their program to a new file called 'sabotaged.py' using `file->save as`. They then make 5 deliberate syntax errors. Students will already have come across syntax errors as they are easily caused by:
+### Enter the competition!
 
-* missing a : at the end of a line
-* not indenting properly after a `while` loop
-* getting case wrong - python is case sensitive
-* not matching ( and ) brackets
-
-After making 5 errors, one person from each team swaps to a different team.The person arriving has to try and fix the syntax errors, and it they get stuck the person who made them can give them clues.
-
-This game is really good fun and worth using a few times until your students are really quick at spotting and fixing errors.
-
-## Plenary - 5 minutes
-
-Ask how a computer remembers data. Ask for an example of when this is necessary - for instance counting the number of loops have already been run.
-
-Ask how we repeat computer code. Ask why looping is important in coding. What python keyword do we use for creating a loop? The `while` keyword.
-
-# Homework
-
-todo
-* Students to continue working on their competition entry.
-* code academy?
+Ask the students to add their names, class and school and your email to the top of the code using comments (shown in the handout)
+Then ask them to submit their code to us at [entries@theturtleprize.com](email:entries@theturtleprize.com).
 
 # Outcome
 
 All students:
 
-* Understand that a variable can be used to store and retrieve data
-* That loops are used to repeat sequences of code
-* That computers need the codes to be written perfectly, or syntax errors will result
+* Understand that a conditional allows a computer program to change its behaviour
+* Used either stamp or fill in their code
 
 Most students
 
-* Have used a loop and a variable in their competition entry
+* Have used a conditional in their competition entry 
 
 Some students
 
-* Have used a variable to change the drawing as a loop progresses
+* Have used a conditional to change a different graphical parameter
+* Have researched the stamp shapes using the internet
