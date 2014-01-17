@@ -1,8 +1,6 @@
-# Useful python commands
+# Variables
 
-## Variables
-
-~~~ python
+~~~ { .python .numberLines }
 #store a number in a variable called 'a'
 a = 10
 
@@ -11,17 +9,9 @@ print(a)
 
 #update the variable
 a = a + 1
+print(a)
 ~~~
 
-## Looping 
+# Looping 
 
-~~~ python
-i = 0
-#loop 20 times
-while i < 20:
-    print("hello")
-    i = i + 1
-~~~
-
-
-
+***loopdemo.py

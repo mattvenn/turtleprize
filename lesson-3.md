@@ -1,21 +1,21 @@
-% The Turtle Prize - Lesson 2
+% The Turtle Prize - Lesson 3
 % CPD for teachers
 %
 
 # Introduction
 
-In lesson 1, students learnt that computer programs are written as a sequence of codes and that computers follow those codes exactly. They also started to use the python turtle library to create simple graphics.
-
-In the 2nd lesson, students will learn more about python, the turtle library, and get better at spotting errors in their code.
+In the 2nd lesson, students learnt more about python, including how to implement loops and use variables. We also covered Sabotage, a game to improve resiliance to syntax errors.
 
 # Learning objectives
 
-* Students will learn about loops and variables
-* Students will get better at spotting errors
+* Students will learn some more advanced graphical techniques
+* Students will learn about conditionals
+* Students will get better at spotting syntax errors
+* Students will learn to find documentation on libraries using the internet
 
 # Resources
 
-* 15 copies of [lesson 2 handout](lesson-2-handout.html)
+* 15 copies of [lesson 3 handout](lesson-3-handout.html)
 
 # Lesson Summary
 
