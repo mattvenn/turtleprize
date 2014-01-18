@@ -45,7 +45,7 @@ $endif$
 \lhead{\itshape $title$}
 \chead{}
 \rhead{\itshape{\nouppercase{\leftmark}}}
-\lfoot{CPD for teachers}
+\lfoot{ \href{http://cpdforteachers.com}{CPD for Teachers} }
 \cfoot{$date$}
 \rfoot{\thepage}
 
@@ -77,7 +77,7 @@ $endif$
 $if(tables)$
 \usepackage{longtable,booktabs}
 $endif$
-$if(graphics)$
+
 \usepackage{graphicx}
 % We will generate all images so they have a width \maxwidth. This means
 % that they will get their normal width if they fit onto the page, but
@@ -88,7 +88,7 @@ $if(graphics)$
 \makeatother
 \let\Oldincludegraphics\includegraphics
 \renewcommand{\includegraphics}[1]{\Oldincludegraphics[width=\maxwidth]{#1}}
-$endif$
+
 \ifxetex
   \usepackage[setpagesize=false, % page size defined by xetex
               unicode=false, % unicode breaks when used with xetex
@@ -150,6 +150,7 @@ $if(title)$
 \begin{huge}{$title$}\end{huge}
 \vfill
 \Oldincludegraphics[width=4cm]{cpd_logo.png}
+\vfill
 \Oldincludegraphics[width=3cm]{license_logo.png}
 \\
 This work is licensed under a 
