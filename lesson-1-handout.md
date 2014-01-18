@@ -1,10 +1,8 @@
 # Robot instructions
 
-## Allowed instructions
-
 \ ![allowed instructions](instructions_table.png)
 
-## Robot program
+# Robot program
 
 \ ![robot program](program_table.png)
 
@@ -21,12 +19,13 @@ done()
 
 # Useful turtle commands
 
-~~~ python
-left(90)
-right(120)
-pencolor("red")
-pensize()
-penup()
-pendown()
-~~~
+The parts of the line that come after a `#` are called comments, and are gnored by python. You don't need to type them in.
 
+~~~ python
+left(90)        #turn left by 90 degrees
+right(120)      #turn right by 120 degrees
+pencolor("red") #change pen colour to red
+pensize(5)      #change the pen thickness to 5
+penup()         #lift the pen up so we can move without drawing
+pendown()       #put the pen down again
+~~~
