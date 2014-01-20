@@ -4,7 +4,7 @@
 
 # Introduction
 
-Students learn to program by creating graphics using python's turtle library. After spending some time creating graphics, students can enter their results into the turtle prize to win a raspberry pi computer and an electronics kit.
+Students learn to program by creating graphics using python's turtle library. After spending some time creating graphics, students can enter their results into the Turtle Prize to win a Raspberry Pi computer and an electronics experimenter's kit.
 
 Students are encouraged to work in pairs, and if a pair wins, then both members will win their own prize.
 
@@ -20,20 +20,20 @@ Students are encouraged to work in pairs, and if a pair wins, then both members 
 
 # Lesson Summary
 
-* An introduction to the turtle prize
+* An introduction to the Turtle Prize
 * Program your robot game
 * Draw your initial with the turtle library
 
-## An introduction to the turtle prize - 5 minutes
+## An introduction to the Turtle Prize - 5 minutes
 
-Tell students about the turtle prize, that we're going to create some
+Tell students about the Turtle Prize, that we're going to create some
 graphics using a computer. But we're not going to use a graphics package (that someone else wrote), we're going to write our own program!
 
 The first lesson will be about learning some of the basics of computer programming, and learning how to draw the initial of your name with computer codes.
 
-The second lesson will be spent creating entries for the turtle prize.
+The second lesson will be spent creating entries for the Turtle Prize.
 
-The winning entry will be judged on originality and how good it looks. The winner across all entrants and schools will win a raspberry pi and experiemnters kit.
+The winning entry will be judged on originality and how good it looks. The winner across all entrants and schools will win a Raspberry Pi and an electronics experimenter's kit.
 
 ## Programming your robot - 25 minutes
 

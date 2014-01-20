@@ -77,7 +77,7 @@ After making 5 errors, one person from each team swaps to a different team. The 
 
 This game is really good fun and worth using a few times until your students are really quick at spotting and fixing errors.
 
-## Work on their turtle prize entry - 15 minutes
+## Work on their Turtle Prize entry - 15 minutes
 
 Encourage the students to use variables and loops in their turtle code.
 The following picture shows you how to spot the ideas students are using.

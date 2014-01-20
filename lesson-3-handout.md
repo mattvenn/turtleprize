@@ -43,7 +43,7 @@ Here's an example of changing the shape to a square and stamping it:
 
 You can find out which [shapes are available for stamping here](http://docs.python.org/2/library/turtle.html#turtle.shape)
 
-# Enter your code to win a raspberry pi!
+# Enter your code to win a Raspberry Pi!
 
 Put your name, class, school and teacher's email at the top of your entry using comments:
 
@@ -54,5 +54,5 @@ Put your name, class, school and teacher's email at the top of your entry using 
 # Mrs.Smith@pickwick.sch.uk
 ~~~
 
-Then email your code to us at [entries@theturtleprize.com](email:entries@theturtleprize.com).
+Then email your code to us at [entries@turtleprize.com](email:entries@turtleprize.com).
 We'll let your teacher know if you've won!

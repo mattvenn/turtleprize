@@ -38,7 +38,7 @@ Ask the students to look at the *conditional statement* in their handout.
 
 Ask them what colour the turtle will draw with the variable `loops` set to 5. Ask what `loops` would need to be to change the colour to red or green?
 
-## Work on their turtle prize entry - 30 minutes
+## Work on their Turtle Prize entry - 30 minutes
 
 * Ask the students to work on their competition entry, and to make use of a conditional statement to change the colour, or another graphical parameter (such as line width).
 * Encourage students to experiment with the *fill* and *stamping* options detailed in the handout.
@@ -61,7 +61,7 @@ That they can create and be creative with computers and computer programming.
 ### Enter the competition!
 
 Ask the students to add their names, class and school and your email to the top of the code using comments (shown in the handout)
-Then ask them to submit their code to us at [entries@theturtleprize.com](email:entries@theturtleprize.com).
+Then ask them to submit their code to us at [entries@turtleprize.com](email:entries@turtleprize.com).
 
 # Outcome
 
