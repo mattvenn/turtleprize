@@ -23,7 +23,7 @@ In the 2nd lesson, students will learn more about Python, the turtle library, an
 * Work on your competition entry
 * Sabotage!
 
-## Hangman - 10 minutes
+## Hangman : 10 minutes
 
 Start off by playing a version of hangman on the white board. This version teaches the importance of variables.
 
@@ -31,7 +31,7 @@ Don't record the wrong guesses, and have the students in a line, come up one by 
 
 Play for a while and ask why it's harder than normal. The reason is that nobody knows all the wrong guesses because they haven't been recorded. 
 
-As people, we take our short term memory for granted, but computers need to be told to remember important things, using a variable.
+As people, we take our short term memory for granted, but computers must be told explicitly to remember anything.
 
 Variables have 3 important features:
 
@@ -41,7 +41,7 @@ Variables have 3 important features:
 
 The variables we'll be using will be storing numbers.
 
-## Variables in Python - 10 minutes
+## Variables in Python : 10 minutes
 
 Ask the students to start Idle and make a new file. Ask them to type the *variables* code in the handout. Ask them to save and run their file. Remember to add the `.py` to the end of their filename.
 
@@ -49,7 +49,7 @@ We use the single `=` to assign a number to a variable. Variables can be called 
 
 When we use the `+` to add to the variable, we are using an `operator`. Common mathematical operators include `+, -, /, *`.
 
-## Loops in Python - 10 minutes
+## Loops in Python : 10 minutes
 
 Ask the students to type in the code *looping* from their handouts. This can be added to the end of their current work.
 
@@ -62,7 +62,7 @@ Ask them to explain how the looping is working, and how it uses the variable to 
 3. prints 'hello'
 4. adds 1 to the variable using the `+` operator.
 
-## Sabotage! - 10 minutes
+## Sabotage! : 10 minutes
 
 Explain they're going to play a game called sabotage. This game was invented by [Alan O'Donohoe](http://twitter.com/teknoteacher) to teach resiliance in dealing with syntax errors.
 
@@ -77,7 +77,7 @@ After making 5 errors, one person from each team swaps to a different team. The 
 
 This game is really good fun and worth using a few times until your students are really quick at spotting and fixing errors.
 
-## Work on their Turtle Prize entry - 15 minutes
+## Work on their Turtle Prize entry : 15 minutes
 
 Encourage the students to use variables and loops in their turtle code.
 The following picture shows you how to spot the ideas students are using.
@@ -89,7 +89,7 @@ The following picture shows you how to spot the ideas students are using.
 3. the right shows the looped version, but the pattern gets a bit bigger everytime using a variable that increases every loop
 
 
-## Plenary - 5 minutes
+## Plenary : 5 minutes
 
 Ask how a computer remembers data. Ask for an example of when this is necessary - for instance counting the number of loops have already been run.
 

@@ -24,7 +24,7 @@ Students are encouraged to work in pairs, and if a pair wins, then both members 
 * Program your robot game
 * Draw your initial with the turtle library
 
-## An introduction to the Turtle Prize - 5 minutes
+## An introduction to the Turtle Prize : 5 minutes
 
 Tell students about the Turtle Prize, that we're going to create some
 graphics using a computer. But we're not going to use a graphics package (that someone else wrote), we're going to write our own program!
@@ -35,7 +35,7 @@ The second lesson will be spent creating entries for the Turtle Prize.
 
 The winning entry will be judged on originality and how good it looks. The winner across all entrants and schools will win a Raspberry Pi and an electronics experimenter's kit.
 
-## Programming your robot - 25 minutes
+## Programming your robot : 25 minutes
 
 The most fundamental part of programming a computer is understanding that programs are made up of a sequence of commands.
 
@@ -59,11 +59,11 @@ Ask the students to write down a program in their handouts that will navigate a 
 
 Now ask for a volunteer robot and a volunteer programmer to see how well they complete the course. Force the robot to follow the programmer's instructions exactly.
 
-## Draw your initial - 25 minutes
+## Draw your initial : 25 minutes
 
 Explain that we'll now write a sequence of codes using a computer programming language called Python. The codes will make a simple picture.
 
-Talk through the first turtle program:
+Talk through the first turtle program. The numbers on the left are line numbers in the file and match those in the handout.
 
 ~~~ { .python .numberLines }
 from turtle import *
@@ -95,7 +95,7 @@ Now ask the students to take it in turns to create their initials using the *use
 
 Encourage students to take turns coding. One writes code and the other helps to come up with ideas. Also encourage them to look at other pair's graphics and the code that made them.
 
-## Plenary - 5 minutes
+## Plenary : 5 minutes
 
 Ask how a computer runs a program. Check that the students understand that computers have to follow specific instructions in a sequence. If any instructions are badly written the computer will complain with an error. 
 

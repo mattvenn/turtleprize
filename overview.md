@@ -21,7 +21,7 @@ Students will learn:
     * data
     * conditionals
     * operators
-* become resiliant with solving computer programming syntax errors.
+* become resilient with solving computer programming syntax errors.
 * what a library is and how to use one.
 
 # Lesson plans

@@ -22,7 +22,7 @@ In the 2nd lesson, students learnt more about Python, including how to implement
 * Work on competition entries, make use of a conditional
 * Introduce new turtle techniques
 
-## Conditionals - 15 minutes
+## Conditionals : 15 minutes
 
 In our programs so far we have only covered sequences and looped sequences. When we want our program to do something different depending on its enviromnent, we need to use conditionals. 
 
@@ -38,13 +38,13 @@ Ask the students to look at the *conditional statement* in their handout.
 
 Ask them what colour the turtle will draw with the variable `loops` set to 5. Ask what `loops` would need to be to change the colour to red or green?
 
-## Work on their Turtle Prize entry - 30 minutes
+## Work on their Turtle Prize entry : 30 minutes
 
 * Ask the students to work on their competition entry, and to make use of a conditional statement to change the colour, or another graphical parameter (such as line width).
 * Encourage students to experiment with the *fill* and *stamping* options detailed in the handout.
 * Encourage students to use the internet to search for other turtle techniques, starting with the link in the handout.
 
-## Plenary - 15 minutes
+## Plenary : 15 minutes
 
 Remind students that they've learnt the fundamentals of computer programming, recap on the meanings of:
 
