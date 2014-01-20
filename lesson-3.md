@@ -56,7 +56,7 @@ Remind students that they've learnt the fundamentals of computer programming, re
 
 That programs are made of sequences of instructions that can be looped.
 That different sequences can be run using conditional statements.
-That they can create and be creative with computers and computer programming.
+That they can use their creativity with computers and computer programming.
 
 ### Enter the competition!
 
