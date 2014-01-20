@@ -4,14 +4,14 @@
 
 # Introduction
 
-Students learn to program by creating graphics using python's turtle library. After spending some time creating graphics, students can enter their results into the Turtle Prize to win a Raspberry Pi computer and an electronics experimenter's kit.
+Students learn to program by creating graphics using Python's turtle library. After spending some time creating graphics, students can enter their results into the Turtle Prize to win a Raspberry Pi computer and an electronics experimenter's kit.
 
 Students are encouraged to work in pairs, and if a pair wins, then both members will win their own prize.
 
 # Learning objectives
 
 * Students will learn that programs are made up of a sequence of computer codes that have to be written exactly.
-* Students will learn to write a python program that draws a simple picture.
+* Students will learn to write a Python program that draws a simple picture.
 * Students will understand what a computer library is.
 
 # Resources
@@ -61,7 +61,7 @@ Now ask for a volunteer robot and a volunteer programmer to see how well they co
 
 ## Draw your initial - 25 minutes
 
-Explain that we'll now write a sequence of codes using a computer programming language called python. The codes will make a simple picture.
+Explain that we'll now write a sequence of codes using a computer programming language called Python. The codes will make a simple picture.
 
 Talk through the first turtle program:
 
@@ -103,7 +103,7 @@ Ask what a computer library is. Check that students understand a library is a se
 
 # Homework
 
-Students will complete their homework using this [interactive turtles website](http://interactivepython.org/courselib/static/thinkcspy/PythonTurtle/helloturtle.html)
+Students will complete their homework using this [interactive turtles website](http://interactivePython.org/courselib/static/thinkcspy/PythonTurtle/helloturtle.html)
 
 * Students who didn't manage to create their initials to do.
 * Remaining students to experiment further with the turtle library, for example colours and line thicknesses.
@@ -114,7 +114,7 @@ All students:
 
 * Understand that computer programs are written in a sequence of instructions
 * Computers are stupid, and all instructions have to be written correctly
-* Have used python to create some simple graphics
+* Have used Python to create some simple graphics
 
 Most students:
 

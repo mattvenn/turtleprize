@@ -9,7 +9,7 @@
 # Our first turtle program
 
 The numbers on the left are line numbers and don't need to be typed in.
-The codes on the right are python commands and they have to be copied exactly as written. Make sure you copy all the symbols, and that everything is in the correct case.
+The codes on the right are Python commands and they have to be copied exactly as written. Make sure you copy all the symbols, and that everything is in the correct case.
 
 ~~~ { .python .numberLines }
 from turtle import *
@@ -19,7 +19,7 @@ done()
 
 # Useful turtle commands
 
-The parts of the line that come after a `#` are called comments, and are gnored by python. You don't need to type them in.
+The parts of the line that come after a `#` are called comments, and are gnored by Python. You don't need to type them in.
 
 ~~~ python
 left(90)        #turn left by 90 degrees

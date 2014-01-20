@@ -4,9 +4,9 @@
 
 # Introduction
 
-In lesson 1, students learnt that computer programs are written as a sequence of codes and that computers follow those codes exactly. They also started to use the python turtle library to create simple graphics.
+In lesson 1, students learnt that computer programs are written as a sequence of codes and that computers follow those codes exactly. They also started to use the Python turtle library to create simple graphics.
 
-In the 2nd lesson, students will learn more about python, the turtle library, and get better at spotting errors in their code.
+In the 2nd lesson, students will learn more about Python, the turtle library, and get better at spotting errors in their code.
 
 # Learning objectives
 
@@ -41,7 +41,7 @@ Variables have 3 important features:
 
 The variables we'll be using will be storing numbers.
 
-## Variables in python - 10 minutes
+## Variables in Python - 10 minutes
 
 Ask the students to start Idle and make a new file. Ask them to type the *variables* code in the handout. Ask them to save and run their file. Remember to add the `.py` to the end of their filename.
 
@@ -49,7 +49,7 @@ We use the single `=` to assign a number to a variable. Variables can be called 
 
 When we use the `+` to add to the variable, we are using an `operator`. Common mathematical operators include `+, -, /, *`.
 
-## Loops in python - 10 minutes
+## Loops in Python - 10 minutes
 
 Ask the students to type in the code *looping* from their handouts. This can be added to the end of their current work.
 
@@ -70,7 +70,7 @@ Each pair saves their program to a new file called 'sabotaged.py' using `file->s
 
 * missing a : at the end of a line
 * not indenting properly after a `while` loop
-* getting case wrong - python is case sensitive
+* getting case wrong - Python is case sensitive
 * not matching ( and ) brackets
 
 After making 5 errors, one person from each team swaps to a different team. The person arriving has to try and fix the syntax errors, and it they get stuck the person who made them can give them clues.
@@ -93,7 +93,7 @@ The following picture shows you how to spot the ideas students are using.
 
 Ask how a computer remembers data. Ask for an example of when this is necessary - for instance counting the number of loops have already been run.
 
-Ask how we repeat computer code. Ask why looping is important in coding. What python keyword do we use for creating a loop? The `while` keyword.
+Ask how we repeat computer code. Ask why looping is important in coding. What Python keyword do we use for creating a loop? The `while` keyword.
 
 # Homework
 

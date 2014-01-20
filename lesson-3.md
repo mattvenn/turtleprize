@@ -4,7 +4,7 @@
 
 # Introduction
 
-In the 2nd lesson, students learnt more about python, including how to implement loops and use variables. We also covered Sabotage, a game to improve resiliance to syntax errors.
+In the 2nd lesson, students learnt more about Python, including how to implement loops and use variables. We also covered Sabotage, a game to improve resiliance to syntax errors.
 
 # Learning objectives
 

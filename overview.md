@@ -26,7 +26,7 @@ Students will learn:
 
 # Lesson plans
 
-* [Lesson 1 - Turtles, sequences, python & libraries](lesson-1.html)
+* [Lesson 1 - Turtles, sequences, Python & libraries](lesson-1.html)
 * [Lesson 2 - Loops, variables, operators & Sabotage!](lesson-2.html)
 * [Lesson 3 - Conditionals, fills & stamping](lesson-3.html)
 
@@ -34,9 +34,9 @@ Students will learn:
 
 * Python 2.x installed on computers. 
 
-## Checking python before the lesson
+## Checking Python before the lesson
 
-Start Idle, which comes with python. A window will pop up called the `shell`. Type in this command and press enter:
+Start Idle, which comes with Python. A window will pop up called the `shell`. Type in this command and press enter:
 
 ~~~ python
 from turtle import *

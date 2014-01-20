@@ -41,7 +41,7 @@ Here's an example of changing the shape to a square and stamping it:
 
 ***stamp_demo.py
 
-You can find out which [shapes are available for stamping here](http://docs.python.org/2/library/turtle.html#turtle.shape)
+You can find out which [shapes are available for stamping here](http://docs.Python.org/2/library/turtle.html#turtle.shape)
 
 # Enter your code to win a Raspberry Pi!
 
