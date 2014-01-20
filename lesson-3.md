@@ -4,7 +4,7 @@
 
 # Introduction
 
-In the 2nd lesson, students learnt more about Python, including how to implement loops and use variables. We also covered Sabotage, a game to improve resiliance to syntax errors.
+In the 2nd lesson, students learnt more about Python, including how to implement loops and use variables. We also covered Sabotage, a game to improve resilience to syntax errors.
 
 # Learning objectives
 
@@ -24,7 +24,7 @@ In the 2nd lesson, students learnt more about Python, including how to implement
 
 ## Conditionals : 15 minutes
 
-In our programs so far we have only covered sequences and looped sequences. When we want our program to do something different depending on its enviromnent, we need to use conditionals. 
+In our programs so far we have only covered sequences and looped sequences. When we want our program to do something different depending on its environment, we need to use conditionals. 
 
 Ask the students for examples of computer games they play. Then ask them what conditionals there are in the games. For example:
 

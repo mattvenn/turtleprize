@@ -1,6 +1,6 @@
 # Conditional statements
 
-In our programs so far we have only covered sequences and looped sequences. When we want our program to do something different depending on its enviromnent, we need to use conditionals.
+In our programs so far we have only covered sequences and looped sequences. When we want our program to do something different depending on its environment, we need to use conditionals.
 
 A conditional statement allows us to test if something is true, and if it is then do something different. This example does 3 different things depending on what the variable `a` is set to.
 

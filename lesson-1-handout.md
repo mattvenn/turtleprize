@@ -19,7 +19,7 @@ done()
 
 # Useful turtle commands
 
-The parts of the line that come after a `#` are called comments, and are gnored by Python. You don't need to type them in.
+The parts of the line that come after a `#` are called comments, and are ignored by Python. You don't need to type them in.
 
 ~~~ python
 left(90)        #turn left by 90 degrees

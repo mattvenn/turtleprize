@@ -45,7 +45,7 @@ The variables we'll be using will be storing numbers.
 
 Ask the students to start Idle and make a new file. Ask them to type the *variables* code in the handout. Ask them to save and run their file. Remember to add the `.py` to the end of their filename.
 
-We use the single `=` to assign a number to a variable. Variables can be called pretty much anything, but there can be no spaces in the name. It's a good idea to call a variable a name that makes sense for what its storing.
+We use the single `=` to assign a number to a variable. Variables can be called pretty much anything, but there can be no spaces in the name. It's a good idea to choose a name that matches the variable's use. So if I need a variable to count loops, I could call it `loops`.
 
 When we use the `+` to add to the variable, we are using an `operator`. Common mathematical operators include `+, -, /, *`.
 
@@ -64,7 +64,7 @@ Ask them to explain how the looping is working, and how it uses the variable to 
 
 ## Sabotage! : 10 minutes
 
-Explain they're going to play a game called sabotage. This game was invented by [Alan O'Donohoe](http://twitter.com/teknoteacher) to teach resiliance in dealing with syntax errors.
+Explain they're going to play a game called sabotage. This game was invented by [Alan O'Donohoe](http://twitter.com/teknoteacher) to teach resilience in dealing with syntax errors.
 
 Each pair saves their program to a new file called 'sabotaged.py' using `file->save as`. They then make 5 deliberate syntax errors. Students will already have come across syntax errors as they are easily caused by:
 
@@ -85,7 +85,7 @@ The following picture shows you how to spot the ideas students are using.
 \ ![looping and variables](turtlesequence.png)
 
 1. on the left is a simple sequence
-2. the center shows the same sequence, but looped 30 times with a rotation between each loop
+2. the centre shows the same sequence, but looped 30 times with a rotation between each loop
 3. the right shows the looped version, but the pattern gets a bit bigger everytime using a variable that increases every loop
 
 

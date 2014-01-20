@@ -1,8 +1,8 @@
 # Variables
 
-If we want a computer to remember something, we have to use a variable. Variables allow us to store and then retreive data.
-We can call variables pretty much what we want. In the following example I used `a`, but I could have called it `my_number`.
-It's best to name a variable after what we're going to use it for.
+If we want a computer to remember something, we have to use a variable. Variables allow us to store and then retrieve data.
+
+We use the single `=` to assign a number to a variable. Variables can be called pretty much anything, but there can be no spaces in the name. It's a good idea to choose a name that matches the variable's use. So if I need a variable to count loops, I could call it `loops`.
 
 ~~~ { .python .numberLines }
 #store a number in a variable called 'a'
