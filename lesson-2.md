@@ -6,12 +6,11 @@
 
 In lesson 1, students learnt that computer programs are written as a sequence of codes and that computers follow those codes exactly. They also started to use the Python turtle library to create simple graphics.
 
-In the 2nd lesson, students will learn more about Python, the turtle library, and get better at spotting errors in their code.
+In the 2nd lesson, students will learn about loops and variables, and use them in their competition entries.
 
 # Learning objectives
 
-* Students will learn about loops and variables.
-* Students will get better at spotting errors.
+* Students will learn about loops, variables and operators.
 
 # Resources
 

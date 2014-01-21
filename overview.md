@@ -6,7 +6,7 @@
 
 The turtle prize was created to encourage programming skills in KS3 by using computers to draw pictures.
 
-It was created by [cpd for teachers](http://cpdforteachers.com), and sponsored by:
+It was created by [CPD for Teachers](http://cpdforteachers.com), and sponsored by:
 
 * [Raspberry Pi](http://raspberrypi.org).
 * [Piffin electronics kits](http://piffin.co.uk).

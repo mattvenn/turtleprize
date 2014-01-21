@@ -4,10 +4,11 @@
 
 # Introduction
 
-In the 2nd lesson, students learnt more about Python, including how to implement loops and use variables. We also covered Sabotage, a game to improve resilience to syntax errors.
+In the 2nd lesson, students learnt more about Python, including how to implement loops and use variables. 
 
 # Learning objectives
 
+* Improve resilience to syntax errors.
 * Students will learn some more advanced graphical techniques.
 * Students will learn about conditionals.
 * Students will learn to find documentation on libraries using the internet.
