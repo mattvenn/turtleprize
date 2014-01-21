@@ -22,3 +22,7 @@ When we want to avoid repeating lots of code, we can use a loop. Here we store t
 in a variable called `loops`.
 
 ***loop_demo.py
+
+# Turtle documentation
+
+You can look up new turtle functions [with the documentation](http://docs.python.org/2/library/turtle.html#turtle-methods).

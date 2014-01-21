@@ -20,9 +20,9 @@ Students are encouraged to work in pairs, and if a pair wins, then both members 
 
 # Lesson Summary
 
-* An introduction to the Turtle Prize
-* Program your robot game
-* Draw your initial with the turtle library
+* An introduction to the Turtle Prize.
+* Program your robot game.
+* Draw your initial with the turtle library.
 
 ## An introduction to the Turtle Prize : 5 minutes
 
@@ -49,9 +49,9 @@ Explain that the `10` is called an argument. Some codes need arguments, others d
 
 Most courses can be solved with the following:
 
-* left(degrees)
-* right(degrees)
-* forward(steps)
+* left(degrees),
+* right(degrees),
+* forward(steps).
 
 And we always have a `start` and `stop` code with associated sound effects!
 
@@ -73,7 +73,7 @@ done()
 
 1. imports the turtle library. A library is a set of codes that we can borrow for our program. In this case it makes it easy for us to draw pictures.
 2. move the turtle forward by 100 pixels. The 100 is the argument to the forward code.
-3. finishes the program
+3. finishes the program.
 
 Get the students to work in pairs on a computer. Show the students how to start Idle, and explain that this is the program they'll use to write the codes.
 
@@ -89,11 +89,15 @@ So for example, Alice and Bob would save as `alicebob.py`
 
 After all students have saved, ask them to press `f5` to run the program. If they've correctly typed the program they should have a window popped up with a horizontal line in it. Check everyone's screen to see this has happened.
 
-Explain that everytime they make a change they should save the file `ctrl+s` and then run it with `f5`.
+Explain that every time they make a change they should save the file `ctrl+s` and then run it with `f5`.
 
 Now ask the students to take it in turns to create their initials using the *useful turtle commands* in the handout. If they haven't finished, set it as homework.
 
 Encourage students to take turns coding. One writes code and the other helps to come up with ideas. Also encourage them to look at other pair's graphics and the code that made them.
+
+## Extension activity
+
+After creating their initials, ask students to draw a picture, or to explore the other turtle commands detailed in the handout.
 
 ## Plenary : 5 minutes
 
@@ -103,23 +107,24 @@ Ask what a computer library is. Check that students understand a library is a se
 
 # Homework
 
-Students will complete their homework using this [interactive turtles website](http://interactivePython.org/courselib/static/thinkcspy/PythonTurtle/helloturtle.html)
+Research to be carried out using the internet.
 
-* Students who didn't manage to create their initials to do.
-* Remaining students to experiment further with the turtle library, for example colours and line thicknesses.
+* Why is Python called Python?
+* Who is Idle named after?
+* Use an image search engine to find some inspirational pictures of graphics made with the turtle library. Try and understand the code used.
 
 # Outcome
 
 All students:
 
-* Understand that computer programs are written in a sequence of instructions
-* Computers are stupid, and all instructions have to be written correctly
-* Have used Python to create some simple graphics
+* Understand that computer programs are written in a sequence of instructions.
+* Computers are stupid, and all instructions have to be written correctly.
+* Have used Python to create some simple graphics.
 
 Most students:
 
-* Have used the turtle library to create their initial
+* Have used the turtle library to create their initial.
 
 Some students:
 
-* Have further experimented with the other turtle commands
+* Have further experimented with the other turtle commands.

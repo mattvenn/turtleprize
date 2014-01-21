@@ -10,8 +10,8 @@ In the 2nd lesson, students will learn more about Python, the turtle library, an
 
 # Learning objectives
 
-* Students will learn about loops and variables
-* Students will get better at spotting errors
+* Students will learn about loops and variables.
+* Students will get better at spotting errors.
 
 # Resources
 
@@ -19,9 +19,14 @@ In the 2nd lesson, students will learn more about Python, the turtle library, an
 
 # Lesson Summary
 
-* Loops, variables and operators
-* Work on your competition entry
-* Sabotage!
+* Loops, variables and operators.
+* Work on your competition entry.
+
+## Homework discussion : 10 minutes
+
+Ask students why Python is called Python. If none of them have seen any Monty Python, try showing them some videos you think they'd like. One of our favourites is the [bus animation](http://www.youtube.com/watch?v=xIIcNapznhE)
+
+Ask students if any want to show some of the graphics they found and ask if they understood the code. A lot of the good stuff involves loops, which we'll be covering today. But before we can use loops, we need to understand variables.
 
 ## Hangman : 10 minutes
 
@@ -35,9 +40,9 @@ As people, we take our short term memory for granted, but computers must be told
 
 Variables have 3 important features:
 
-* They can store some data
-* They can recall that data
-* The data they store can be changed
+* They can store some data,
+* They can recall that data,
+* The data they store can be changed.
 
 The variables we'll be using will be storing numbers.
 
@@ -57,25 +62,10 @@ Ask them to explain how the looping is working, and how it uses the variable to 
 
 ***loop_demo.py
 
-1. create a new variable and store 0 inside
-2. the line that creates the loop. It will only loop while loops < 20
-3. prints 'hello'
+1. create a new variable and store 0 inside,
+2. the line that creates the loop. It will only loop while loops < 20,
+3. prints 'hello',
 4. adds 1 to the variable using the `+` operator.
-
-## Sabotage! : 10 minutes
-
-Explain they're going to play a game called sabotage. This game was invented by [Alan O'Donohoe](http://twitter.com/teknoteacher) to teach resilience in dealing with syntax errors.
-
-Each pair saves their program to a new file called 'sabotaged.py' using `file->save as`. They then make 5 deliberate syntax errors. Students will already have come across syntax errors as they are easily caused by:
-
-* missing a : at the end of a line
-* not indenting properly after a `while` loop
-* getting case wrong - Python is case sensitive
-* not matching ( and ) brackets
-
-After making 5 errors, one person from each team swaps to a different team. The person arriving has to try and fix the syntax errors, and it they get stuck the person who made them can give them clues.
-
-This game is really good fun and worth using a few times until your students are really quick at spotting and fixing errors.
 
 ## Work on their Turtle Prize entry : 15 minutes
 
@@ -84,10 +74,17 @@ The following picture shows you how to spot the ideas students are using.
 
 \ ![looping and variables](turtlesequence.png)
 
-1. on the left is a simple sequence
-2. the centre shows the same sequence, but looped 30 times with a rotation between each loop
-3. the right shows the looped version, but the pattern gets a bit bigger everytime using a variable that increases every loop
+1. on the left is a simple sequence,
+2. the centre shows the same sequence, but looped 30 times with a rotation between each loop,
+3. the right shows the looped version, but the pattern gets a bit bigger every time using a variable that increases every loop.
 
+## Extension Activity
+
+Ask your students to investigate a loop within a loop:
+
+***2loop_demo.py
+
+These can add extra detail to drawings.
 
 ## Plenary : 5 minutes
 
@@ -97,9 +94,7 @@ Ask how we repeat computer code. Ask why looping is important in coding. What Py
 
 # Homework
 
-* todo
-* Students to continue working on their competition entry.
-* code academy?
+Students are asked to investigate a new way of drawing by choosing something from [the documentation](http://docs.python.org/2/library/turtle.html#turtle-methods). They should only choose from the 'Move and draw' section.
 
 # Outcome
 
