@@ -23,7 +23,7 @@ We can fill areas by starting a fill, moving the turtle, then ending the fill. T
 
 
 * `fill_color("red")` - fills the shape with red.
-* `start_fill()` - starts the fill
+* `begin_fill()` - starts the fill
 * `end_fill()` - ends the fill
 
 Here's an example for a filled triangle:
