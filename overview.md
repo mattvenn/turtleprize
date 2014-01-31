@@ -11,6 +11,8 @@ It was created by [CPD for Teachers](http://cpdforteachers.com), and sponsored b
 * [Raspberry Pi](http://raspberrypi.org).
 * [Piffin electronics kits](http://piffin.co.uk).
 
+Competition [rules are here](rules.html).
+
 # Learning outcomes
 
 Students will learn:
