@@ -17,12 +17,24 @@ We have these to choose from:
 
 # More turtle codes
 
+## Colour mixing
+
+We've been using primary colours so far by calling their names, like `pencolor("red")`. It's also possible to mix up our own colours like this:
+
+~~~ python
+pencolor(0.5,0.3,0.1)
+~~~
+
+The 3 arguments stand for the red, green and blue parts of the colour mix. So in the example above we've set the red value to 0.5. They can be set to anything between 0 and 1. If the value ever becomes more than 1 you will get an error.
+
+How could you make the colours change as your program progresses?
+
 ## Filling
 
 We can fill areas by starting a fill, moving the turtle, then ending the fill. The main functions for filling are:
 
 
-* `fill_color("red")` - fills the shape with red.
+* `fillcolor("red")` - fills the shape with red.
 * `begin_fill()` - starts the fill
 * `end_fill()` - ends the fill
 

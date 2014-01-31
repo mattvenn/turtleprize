@@ -66,6 +66,12 @@ Ask them to explain how the looping is working, and how it uses the variable to 
 3. prints 'hello',
 4. adds 1 to the variable using the `+` operator.
 
+### The done() and speed() commands
+
+You may notice that some students are having problems shutting their windows. This will because their programs are no longer running the `done()` command because their loops never end. Also, some students will put the `done()` command inside their loop, so the program stops every loop.
+
+Now we've introduce loops, some pictures may take some time to draw. Encourage student's to use the `speed(0)` command from the first handout to make the drawing happen as fast as possible.
+
 ## Work on their Turtle Prize entry : 15 minutes
 
 Encourage the students to use variables and loops in their turtle code.

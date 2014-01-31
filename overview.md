@@ -31,6 +31,11 @@ Students will learn:
 * [Lesson 2 - Loops, variables & operators](lesson-2.html)
 * [Lesson 3 - Sabotage, conditionals, fills & stamps](lesson-3.html)
 
+# Other Resources
+
+* [Python cheat sheet](cheatsheet.html) for commonly needed Python code
+* [Scratch to Python](http://bit.ly/scrpy) cheat sheet
+
 All lesson plans and handouts can be [downloaded as a zip here](turtleprize-lessons.zip).
 
 # Required resources

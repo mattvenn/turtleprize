@@ -17,6 +17,8 @@ forward(100)
 done()
 ~~~
 
+When you're done, save your file as a combination of your names with a `.py` at the end. Then press `f5` to run it!
+
 # Useful turtle commands
 
 The parts of the line that come after a `#` are called comments, and are ignored by Python. You don't need to type them in.
@@ -28,4 +30,5 @@ pencolor("red") #change pen colour to red
 pensize(5)      #change the pen thickness to 5
 penup()         #lift the pen up so we can move without drawing
 pendown()       #put the pen down again
+speed(0)        #draw as fast as possible
 ~~~

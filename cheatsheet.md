@@ -1,7 +1,3 @@
-% Python Cheatsheet
-% CPD for Teachers
-%
-
 # Important data types
 
 * An int (short for integer) stores an integer number, eg. 5

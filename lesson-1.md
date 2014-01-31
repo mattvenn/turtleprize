@@ -83,17 +83,21 @@ Then ask the students to copy out the first turtle program from the handout into
 
 When everyone has finished, they need to save their files. Ask them to save their file as a combination of their names with a `.py` at the end.
 
-*Saving the file as `turtle.py` will break the program!*
+*Saving the file as `turtle.py` will break the program!* If this happens, you have to locate 2 files; `turtle.py` and `turtle.pyc` and delete them from the computer.
 
 So for example, Alice and Bob would save as `alicebob.py`
 
 After all students have saved, ask them to press `f5` to run the program. If they've correctly typed the program they should have a window popped up with a horizontal line in it. Check everyone's screen to see this has happened.
 
-Explain that every time they make a change they should save the file `ctrl+s` and then run it with `f5`.
+Explain that every time they make a change they should test it by running it. They can do this by `f5`, if the file has changed they'll get a box asking if they want to save. Encourage students to get into the habit of pressing `f5` and then `enter` to keep the time spent doing this as short as possible.
 
 Now ask the students to take it in turns to create their initials using the *useful turtle commands* in the handout. If they haven't finished, set it as homework.
 
 Encourage students to take turns coding. One writes code and the other helps to come up with ideas. Also encourage them to look at other pair's graphics and the code that made them.
+
+### The done() command
+
+So that you know, the `done()` command finished the program "nicely" and allows the exit button on the window to work. If students miss it out, the program will still work but they'll have problems closing the window.
 
 ## Extension activity
 

@@ -11,9 +11,12 @@ conditions where this won't work:
 import os
 import argparse
 import re
+import pickle
 
 def export():
     prog_lines = []
+    #store the original program (minus the top comments)
+    orig_lines = []
     tmp_file = 'tmp'
     eps_file = 'tmp.eps'
     png_file = args.file.replace('.py','.png')
@@ -35,12 +38,16 @@ def export():
             m = re.search('name:\s*(.*)',line,re.I)
             if m:
                 details['name'] = m.group(1).strip()
+                continue
             m = re.search('school:\s*(.*)',line,re.I)
             if m:
                 details['school'] = m.group(1).strip()
+                continue
             m = re.search('email:\s*(.*)',line,re.I)
             if m:
                 details['email'] = m.group(1).strip()
+                continue
+            orig_lines.append(line)
             #replace done() with the export_line
             if 'done()' in line:
                 prog_lines.append(export_line)
@@ -53,6 +60,8 @@ def export():
     with open(tmp_file,'w') as f:
         f.writelines(prog_lines)
 
+    #store the tmp file for post
+    details['text'] = ''.join(orig_lines)
     #run the tmp file (in a thread to avoid blocking if program never ends?
     os.system("python %s" % tmp_file)
 
@@ -75,20 +84,15 @@ if __name__ == '__main__':
     parser.add_argument('--verbose',
         action='store_const', const=True, dest='verbose', default=False,
         help="verbose")
-    parser.add_argument('--post',
-        action='store_const', const=True, dest='post', default=False,
-        help="post to the blog")
     parser.add_argument('--file', action='store', dest='file', help="single file to open", required=True)
 
     args = parser.parse_args()
     details = export()
     keys = ['name','school','email','png_file']
-    if args.post:
-        #check we've got what we need
-        for check in keys:
-            if not details.has_key(check):
-                print("missing " + check)
-                exit(1)
-        print "posting..."
-        print details
-        print args.file
+    #check we've got what we need
+    for check in keys:
+        if not details.has_key(check):
+            print("missing " + check)
+            exit(1)
+    print details
+    pickle.dump( details, open( "save.p", "wb" ) )

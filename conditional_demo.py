@@ -1,7 +1,7 @@
 loops = 5
 if loops == 3:
-    fillcolor("red")
+    pencolor("red")
 elif loops > 10:
-    fillcolor("green")
+    pencolor("green")
 else:
-    fillcolor("blue")
+    pencolor("blue")
