@@ -1,4 +1,4 @@
-% The Turtle Prize - Lesson 2
+% The Turtle Prize - Lesson 2 - Variables & Loops
 % CPD for teachers
 %
 
@@ -47,30 +47,37 @@ The variables we'll be using will be storing numbers.
 
 ## Variables in Python : 10 minutes
 
-Ask the students to start Idle and make a new file. Ask them to type the *variables* code in the handout. Ask them to save and run their file. Remember to add the `.py` to the end of their filename.
-
-We use the single `=` to assign a number to a variable. Variables can be called pretty much anything, but there can be no spaces in the name. It's a good idea to choose a name that matches the variable's use. So if I need a variable to count loops, I could call it `loops`.
+We use the single `=` to assign a number to a variable. Variables can be called pretty much anything, but there can be no spaces in the name. It's a good idea to choose a name that matches the variable's use. So for now, when we're testing what variables do, I'm calling it *test_var*.
 
 When we use the `+` to add to the variable, we are using an `operator`. Common mathematical operators include `+, -, /, *`.
 
+Ask students to guess what will happen when we run the code.
+
+Ask the students to start Idle and make a new file. Ask them to type the *variables* code in the handout and save it as *variables.py*. Ask them to save and run their file. Remember to add the `.py` to the end of their filename.
+
+Discuss what happened. Did the students predict right? It's great practice to predict what will happen before running code.
+
 ## Loops in Python : 10 minutes
 
-Ask the students to type in the code *looping* from their handouts. This can be added to the end of their current work.
+Ask students to look at the *looping* code in their handouts.
 
-Ask them to explain how the looping is working, and how it uses the variable to count the number of times the loop as run.
+Ask them to guess how it works.
+
+Ask them to tell you what they think will happen as it runs through the loop.
+
+Explain that line 2 starts the loop with the `while` keyword. The following lines will be looped as long as the condition `loops < 20` is True.
+
+Show them that lines 3 to 5 are *indented*, and this is how Python knows that they are the sequence of codes for *while* to repeat.
 
 ***loop_demo.py
 
-1. create a new variable and store 0 inside,
+1. create a new variable called loop and store 0 inside,
 2. the line that creates the loop. It will only loop while loops < 20,
 3. prints 'hello',
-4. adds 1 to the variable using the `+` operator.
+4. prints the loop variable,
+5. adds 1 to the variable using the `+` operator.
 
-### The done() and speed() commands
-
-You may notice that some students are having problems shutting their windows. This will because their programs are no longer running the `done()` command because their loops never end. Also, some students will put the `done()` command inside their loop, so the program stops every loop.
-
-Now we've introduce loops, some pictures may take some time to draw. Encourage student's to use the `speed(0)` command from the first handout to make the drawing happen as fast as possible.
+Ask the students to type in the code *looping* from their handouts. This can be added to the end of their current work in *variables.py*. Get them to check it does what they expect.
 
 ## Work on their Turtle Prize entry : 15 minutes
 
@@ -82,6 +89,12 @@ The following picture shows you how to spot the ideas students are using.
 1. on the left is a simple sequence,
 2. the centre shows the same sequence, but looped 30 times with a rotation between each loop,
 3. the right shows the looped version, but the pattern gets a bit bigger every time using a variable that increases every loop.
+
+### The done() and speed() commands
+
+You may notice that some students are having problems shutting their windows. This will because their programs are no longer running the `done()` command because their loops never end. Also, some students will put the `done()` command inside their loop, so the program stops every loop.
+
+Now we've introduce loops, some pictures may take some time to draw. Encourage students to use the `speed(0)` command from the first handout to make the drawing happen as fast as possible.
 
 ## Extension Activity
 
