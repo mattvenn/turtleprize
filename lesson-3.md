@@ -1,4 +1,4 @@
-% The Turtle Prize - Lesson 3
+% The Turtle Prize - Lesson 3 - Conditionals
 % CPD for teachers
 %
 
@@ -52,6 +52,10 @@ Ask the students for examples of computer games they play. Then ask them what co
 Ask the students to look at the *conditional statement* in their handout.
 
 ***conditional_demo.py
+
+A conditional statement always has to start with the `if` keyword. It can any number of `elifs` - even 0. And it can have an optional `else` that only happens if all the other conditions fail.
+
+Each `if` or `elif` has a *condition* that is evaluated to True or False. If the condition is True, the following indented codes are run.
 
 Ask them what colour the turtle will draw with the variable `loops` set to 5. Ask what `loops` would need to be to change the colour to red or green?
 

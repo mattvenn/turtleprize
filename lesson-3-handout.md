@@ -1,8 +1,10 @@
-# Conditional statements
+# Lesson 3
+
+## Conditional statements
 
 In our programs so far we have only covered sequences and looped sequences. When we want our program to do something different depending on its environment, we need to use conditionals.
 
-A conditional statement allows us to test if something is true, and if it is then do something different. This example does 3 different things depending on what the variable `a` is set to.
+A conditional statement allows us to test if something is true, and if it is then do something different. This example does 3 different things depending on what the variable `loops` is set to.
 
 ***conditional_demo.py
 
@@ -15,9 +17,9 @@ We have these to choose from:
 * `<` less than
 * `!=` not equal to
 
-# More turtle codes
+## More turtle codes
 
-## Colour mixing
+### Colour mixing
 
 We've been using primary colours so far by calling their names, like `pencolor("red")`. It's also possible to mix up our own colours like this:
 
@@ -29,7 +31,7 @@ The 3 arguments stand for the red, green and blue parts of the colour mix. So in
 
 How could you make the colours change as your program progresses?
 
-## Filling
+### Filling
 
 We can fill areas by starting a fill, moving the turtle, then ending the fill. The main functions for filling are:
 
@@ -42,7 +44,7 @@ Here's an example for a filled triangle:
 
 ***fill_demo.py
 
-## Stamping
+### Stamping
 
 We can also make shapes by stamping, like a stamp and ink pad. The two main functions for this are:
 
@@ -55,7 +57,7 @@ Here's an example of changing the shape to a square and stamping it:
 
 You can find out which [shapes are available for stamping here](http://docs.Python.org/2/library/turtle.html#turtle.shape)
 
-# Enter your code to win a Raspberry Pi!
+## Enter your code to win a Raspberry Pi!
 
 Put your name, class, school and teacher's email at the top of your entry using comments:
 
