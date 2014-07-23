@@ -1,4 +1,3 @@
-loops = 5
 if loops == 3:
     pencolor("red")
 elif loops > 10:

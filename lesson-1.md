@@ -1,4 +1,4 @@
-% The Turtle Prize - Lesson 1
+% The Turtle Prize - Lesson 1 - Sequences
 % CPD for teachers
 %
 
@@ -91,7 +91,9 @@ After all students have saved, ask them to press `f5` to run the program. If the
 
 Explain that every time they make a change they should test it by running it. They can do this by `f5`, if the file has changed they'll get a box asking if they want to save. Encourage students to get into the habit of pressing `f5` and then `enter` to keep the time spent doing this as short as possible.
 
-Now ask the students to take it in turns to create their initials using the *useful turtle commands* in the handout. If they haven't finished, set it as homework.
+Now ask the students to take it in turns to create their initials using the *useful turtle commands* in the handout. If they haven't finished, set it as homework. 
+
+If students get stuck ask them to draw their initial on paper first.
 
 Encourage students to take turns coding. One writes code and the other helps to come up with ideas. Also encourage them to look at other pair's graphics and the code that made them.
 
