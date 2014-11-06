@@ -46,13 +46,13 @@ Converting from one data type to another:
 
 ~~~ {.python}
 #converts a string to a float
-float("1.54")
+converted = float("1.54")
 
 #converts a string to an int
-int("3")
+converted = int("3")
 
 #converts a float or an int to a string
-str(2.5)
+converted = str(2.5)
 ~~~
 
 # Variables
@@ -83,7 +83,7 @@ b = "hands off " + b
 We can ask the user for a string (and store it in a variable called `answer`):
 
 ~~~ {.python}
-answer = raw_input("what is your name?")
+answer = input("what is your name?")
 ~~~
 
 # Conditionals
@@ -115,7 +115,7 @@ To loop forever:
 
 ~~~ {.python}
 while True:
-    print "hello!!"
+    print("hello!!")
 ~~~
 
 To loop a certain number of times we can use `while`. `while` will only loop the code after the `:` while its condition is True:
