@@ -1,3 +1,4 @@
+#!/usr/bin/python
 from wordpress_xmlrpc import Client, WordPressPost
 from wordpress_xmlrpc.methods.posts import GetPosts, NewPost
 from wordpress_xmlrpc.methods.users import GetUserInfo
@@ -57,7 +58,7 @@ def gist_post(config):
     GHgist = Simplegist(username=secrets.user,api_token=secrets.token)
     # creating gist and returning url, script, clone link
     desc = 'Author: %s, School: %s' % (config['name'],config['school'])
-    result = GHgist.create(name='turtleprize.com competition entry', description=desc, public=1, content=config['text'])
+    result = GHgist.create(name='turtleprize.com competition entry', description=desc, public=True, content=config['text'])
     config['gist_id'] = result['id'] 
     print("id=" + config['gist_id'])
 

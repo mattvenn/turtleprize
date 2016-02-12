@@ -1,3 +1,4 @@
+#!/usr/bin/python
 """
 #bugs
 
@@ -22,6 +23,7 @@ def export():
     png_file = args.file.replace('.py','.png')
     png_file = png_file.replace(' ','')
     details = {}
+    details['png_file'] = png_file
 
     try:
         os.remove(tmp_file)
@@ -29,6 +31,7 @@ def export():
     except OSError as e:
         pass
 
+    done_line = False
     export_line = 'getscreen().getcanvas().postscript(file="%s")\n' % eps_file
     speed_line = 'speed(0)\n'
 
@@ -51,10 +54,21 @@ def export():
             #replace done() with the export_line
             if 'done()' in line:
                 prog_lines.append(export_line)
+                done_line = True
             else:
                 prog_lines.append(line)
             if 'from turtle import' in line:
                 prog_lines.append(speed_line)
+
+    keys = ['name','school','email','png_file']
+    if done_line == False:
+        print("missing done line!")
+        exit(1)
+    #check we've got what we need
+    for check in keys:
+        if not details.has_key(check):
+            print("missing " + check)
+            exit(1)
 
     #write the new tmp file
     with open(tmp_file,'w') as f:
@@ -63,13 +77,18 @@ def export():
     #store the tmp file for post
     details['text'] = ''.join(orig_lines)
     #run the tmp file (in a thread to avoid blocking if program never ends?
+    if args.verbose:
+        print("written to %s" % tmp_file)
+        print(details)
+        print("about to execute script")
+
+
     os.system("python %s" % tmp_file)
 
     #convert the image
     try:
         os.system("convert -density 200 -resize 800 %s '%s'" % (eps_file, png_file))
         print("exported to " + png_file)
-        details['png_file'] = png_file
     except IOError:
         print("problem converting image")
     return details
@@ -88,11 +107,4 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
     details = export()
-    keys = ['name','school','email','png_file']
-    #check we've got what we need
-    for check in keys:
-        if not details.has_key(check):
-            print("missing " + check)
-            exit(1)
-    print details
     pickle.dump( details, open( "save.p", "wb" ) )
